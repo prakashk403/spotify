@@ -1,0 +1,101 @@
+#top-nav {
+  height: 10vh;
+  width: 85vw;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+#top-nav-content {
+  width: 100%;
+  background-color: #0c0c0c;
+  height: 100%;
+}
+
+.top-nav-content {
+  position: relative;
+}
+
+.button-wrapper-top-nav {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 30px;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+.button-top-nav {
+  background-color: #000000;
+  color: rgb(161, 158, 158);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+.button-top-nav:nth-child(2) {
+  margin-left: 10px;
+}
+.btn-icon {
+  margin-top: 4px;
+}
+.icon-top-nav {
+  margin-left: -5px;
+  margin-top: 1px;
+}
+.icon-top-nav-two {
+  margin-left: -3px;
+  margin-top: 1px;
+}
+
+.search-bar-top-nav {
+  position: absolute;
+  left: 120px;
+  top: -3px;
+}
+.search-bar-top-nav-content {
+  display: flex;
+  width: 370px;
+  height: 38px;
+}
+.search-bar-top-nav-content > input {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  outline: 0;
+  border: 0;
+  padding-left: 50px;
+}
+.search-bar-top-nav-span{
+  position: absolute;
+  z-index: 99;
+  left:10px;
+  top:6px;
+}
+.right-btns {
+  position: absolute;
+  right: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+#signup {
+  background-color: #000000;
+  color: rgb(161, 158, 158);
+  border-radius: 50px;
+  width: 120px;
+  height: 55px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#login {
+  background-color: #f7f4f4;
+  color: rgb(15, 15, 15);
+  border-radius: 50px;
+  width: 120px;
+  height: 55px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 10px;
+}

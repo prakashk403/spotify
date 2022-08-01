@@ -1,0 +1,61 @@
+#music-box {
+  height: 83vh;
+  /* height: 75vh; */
+  width: 85vw;
+  position: fixed;
+  right: 0;
+  padding-top: 8vh;
+}
+#music-box-content {
+  width: 100%;
+  height: 100%;
+  background-color: #121212;
+  overflow: auto;
+  padding: 40px;
+  padding-top: 20px;
+}
+h1 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-weight: bold !important;
+}
+.see-all-div {
+  width: 100%;
+  text-align: right;
+  margin-top: 0px;
+}
+.see-all {
+  width: 94%;
+  font-size: 13px;
+  color: rgb(170, 162, 162);
+  font-weight: 700;
+  margin-top: 0px;
+}
+.see-all p {
+  color: rgb(170, 162, 162);
+  font-weight: 300;
+}
+.see-all a:hover {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.see-all-div-second {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.sec-see-all {
+  text-align: right;
+  margin-right: 70px;
+}
+
+.cards {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 25px;
+  flex-wrap: wrap;
+  /* justify-content: space-between */
+}
